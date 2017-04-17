@@ -101,11 +101,10 @@ namespace VendingMachineWPF.ViewModels
             }
             else
             {
-                Console.WriteLine("The Amount entered is not enough for the item selected");
+                Console.WriteLine("The Amount entered is not enough for the item selected\n" +
+                        "You need another " + string.Format("{0:0.00}",( -Inserted - -Total)));
                 return false;
-            }
-
-            
+            }      
         }
 
         public void Pay()

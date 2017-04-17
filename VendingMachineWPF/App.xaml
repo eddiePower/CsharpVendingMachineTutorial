@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:VendingMachineWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Must be inside <Application.Resources> tag -->
-        <!-- Content from toskerscorner.com -->
         <Style x:Key="TitleBlock" TargetType="TextBlock">
             <Setter Property="FontSize" Value="48"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
